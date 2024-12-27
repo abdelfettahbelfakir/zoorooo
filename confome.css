@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #003580;  Couleur de fond de la page */
+    color: white;
+}
+
+/* Header */
+.navbar {
+    background-color: #0fcaca; /* Couleur de fond de la barre de navigation */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcd00 !important; /* Couleur des liens au survol */
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Confirmation Section */
+.confirmation-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.confirmation-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-box h2 {
+    font-size: 28px;
+    color: #28a745; /* Vert pour "Message Envoyé" */
+}
+
+.confirmation-box p {
+    font-size: 18px;
+    color: #333;
+}
+
+.confirmation-box .btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #ffcd00;
+    color: #003580;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.confirmation-box .btn:hover {
+    background-color: #e0a800;
+    color: white;
+}
+
+/* Footer */
+.footer {
+   
+    text-align: center;color: gray;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .confirmation-box {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .confirmation-box h2 {
+        font-size: 24px;
+    }
+
+    .confirmation-box p {
+        font-size: 16px;
+    }
+
+    .confirmation-box .btn {
+        font-size: 16px;
+    }
+}
